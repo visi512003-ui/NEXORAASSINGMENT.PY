@@ -255,7 +255,7 @@ Feel free to check the [issues page](https://github.com/visi512003-ui/NEXORAASSI
 
 ##  Contact
 
-**Author:** Vishwas  
+**Author:** Vipul singh 
 **GitHub:** [visi512003-ui](https://github.com/visi512003-ui)  
 **Repository:** [NEXORAASSINGMENT.PY](https://github.com/visi512003-ui/NEXORAASSINGMENT.PY)  
 

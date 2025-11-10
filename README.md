@@ -1,4 +1,4 @@
-# 🎯 Vibe Matcher - AI-Powered Fashion Recommendation System
+#  Vibe Matcher - AI-Powered Fashion Recommendation System
 
 > **A semantic search prototype that matches fashion products to user queries using OpenAI embeddings and cosine similarity**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎨 Overview
+##  Overview
 
 **Vibe Matcher** is a mini recommendation system that bridges the gap between natural language queries and product discovery. Instead of exact keyword matching, it understands the *semantic meaning* of user queries like "energetic urban chic" or "cozy autumn" and finds fashion products that match that vibe.
 
@@ -33,14 +33,14 @@ By converting both product descriptions and user queries into **semantic embeddi
 
 ---
 
-## ✨ Features
+##  Features
 
-✅ **Semantic Search** - Understands query intent, not just keywords  
-✅ **Real-time Matching** - Fast cosine similarity computation  
-✅ **Fallback Handling** - Smart suggestions when no strong match is found  
-✅ **Performance Metrics** - Latency tracking and match quality scoring  
-✅ **Visual Analytics** - Matplotlib plots for latency analysis  
-✅ **Production-Ready** - Error handling, logging, and clean code structure  
+ **Semantic Search** - Understands query intent, not just keywords  
+ **Real-time Matching** - Fast cosine similarity computation  
+ **Fallback Handling** - Smart suggestions when no strong match is found  
+ **Performance Metrics** - Latency tracking and match quality scoring  
+ **Visual Analytics** - Matplotlib plots for latency analysis  
+ **Production-Ready** - Error handling, logging, and clean code structure  
 
 ---
 
@@ -56,7 +56,7 @@ By converting both product descriptions and user queries into **semantic embeddi
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -81,7 +81,7 @@ client = OpenAI(api_key="YOUR-API-KEY-HERE")
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Run the Script
 ```bash
@@ -121,7 +121,7 @@ Latency: 0.3421 seconds
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. **Data Preparation**
 We create a dataset of 8 fashion products with rich descriptions:
@@ -155,13 +155,13 @@ Where A = query embedding, B = product embedding
 ### 4. **Threshold Filtering**
 If the highest similarity score < 0.7, show a fallback message:
 ```
-⚠️ No strong vibe match found (max score: 0.623 < 0.7)
+ No strong vibe match found (max score: 0.623 < 0.7)
 Try similar keywords?
 ```
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Performance Metrics
 - **Average Query Latency:** ~0.35 seconds
@@ -184,7 +184,7 @@ Try similar keywords?
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 ### Scalability
 - **Vector Database Integration**: Migrate to Pinecone or Weaviate for 10M+ products
@@ -205,55 +205,55 @@ Try similar keywords?
 
 ---
 
-## 💡 Why Nexora?
+##  Why Nexora?
 
 Nexora's mission resonates with my passion for deploying real-world AI, especially recommender systems that bridge brand and user identity. I'm drawn to Nexora for its blend of cutting-edge research and rapid prototyping, enabling engineers to improve fashion discovery through creative tech experimentation.
 
 This Vibe Matcher prototype demonstrates:
-- ✅ **Technical Skills**: API integration, vector search, ML evaluation
-- ✅ **Problem-Solving**: Handling edge cases (low similarity, API failures)
-- ✅ **Production Mindset**: Error handling, logging, metrics tracking
-- ✅ **Innovation**: Semantic search > traditional keyword matching
+-  **Technical Skills**: API integration, vector search, ML evaluation
+-  **Problem-Solving**: Handling edge cases (low similarity, API failures)
+-  **Production Mindset**: Error handling, logging, metrics tracking
+-  **Innovation**: Semantic search > traditional keyword matching
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 NEXORAASSINGMENT.PY/
-├── py                          # Main script with Vibe Matcher
+├── vm.py                          # Main script with Vibe Matcher
 ├── README.md                   # This file
-└── vm.py                       # Additional implementation file
+
 ```
 
 ---
 
-## 🧪 Code Quality
+##  Code Quality
 
 ### Best Practices Implemented
-- ✅ **Error Handling**: Try-except blocks with fallback logic
-- ✅ **Documentation**: Clear docstrings and comments
-- ✅ **Logging**: Print statements for debugging and tracking
-- ✅ **Modular Design**: Separate functions for each step
-- ✅ **PEP 8 Compliance**: Clean, readable code
-- ✅ **API Best Practices**: Correct OpenAI API usage with streaming support
+-  **Error Handling**: Try-except blocks with fallback logic
+-  **Documentation**: Clear docstrings and comments
+-  **Logging**: Print statements for debugging and tracking
+-  **Modular Design**: Separate functions for each step
+-  **PEP 8 Compliance**: Clean, readable code
+-  **API Best Practices**: Correct OpenAI API usage with streaming support
 
 ---
 
-## 📝 License
+##  License
 
 MIT License - feel free to use this code for your own projects!
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to check the [issues page](https://github.com/visi512003-ui/NEXORAASSINGMENT.PY/issues).
 
 ---
 
-## 📧 Contact
+##  Contact
 
 **Author:** Vishwas  
 **GitHub:** [visi512003-ui](https://github.com/visi512003-ui)  
@@ -261,7 +261,7 @@ Feel free to check the [issues page](https://github.com/visi512003-ui/NEXORAASSI
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **OpenAI** for the powerful embedding API
 - **Nexora** for the exciting opportunity
@@ -271,8 +271,6 @@ Feel free to check the [issues page](https://github.com/visi512003-ui/NEXORAASSI
 
 <div align="center">
 
-**Made with ❤️ for the Nexora AI Internship Application**
-
-⭐ Star this repo if you found it helpful!
+ Star this repo if you found it helpful!
 
 </div>
